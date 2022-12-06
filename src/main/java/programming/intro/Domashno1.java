@@ -12,7 +12,7 @@ public class Domashno1 {
         String hobby = scanner.nextLine();
 
         System.out.println(username + "," + " how cool is that!");
-        // ctrl+alt+enter - beautify code
+        // ctrl+alt+L - beautify code
     }
 }
 
