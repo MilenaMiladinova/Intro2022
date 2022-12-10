@@ -5,7 +5,13 @@ import java.util.Scanner;
 public class Domashno2 {
     public static void main(String[] args) {
 
-        // task1 - не разбирам условието
+        // task1
+
+        String inputName = " Your name is <My name>";
+        Scanner scan = new Scanner(System.in);
+        String outputName = scan.nextLine();
+        System.out.println(inputName.replace("<My name>", outputName));
+
 
         //task2
         Scanner scanner = new Scanner(System.in);
